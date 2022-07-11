@@ -1,6 +1,10 @@
 # Binary search is a search algorithm that works on sorted arrays.
 
 # TODO 1: Write a function that takes an array and a number as input and returns the index of the number in the array.
+#   @def binarySearch(arr, arrLen, search_value):
+#   @param arr: list of numbers
+#   @param arrLen: length of the list
+#   @param search_value: number to be searched
 def binarySearch(arr, arrLen, search_value):
     start = 0
     end = arrLen - 1
