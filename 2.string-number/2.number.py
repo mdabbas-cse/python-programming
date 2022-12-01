@@ -1,0 +1,9 @@
+#number 
+#integer
+print(1)
+#float
+print(1.1)
+#boolean
+print(True)
+#list
+print([1,2,3])
