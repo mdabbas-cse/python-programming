@@ -1,6 +1,8 @@
-# numbers = input("Enter a list of numbers: ")
-# numbers = list(numbers)
-# print(numbers)
+"""
+numbers = input("Enter a list of numbers: ")
+numbers = list(numbers)
+print(numbers)
+"""
 
 myList = [1, 2, 3, 4, 5]
 # append a new item to the list
