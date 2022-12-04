@@ -25,6 +25,9 @@ class MagicMethod:
     def __call__(self):
         print("Hello! I am a MagicMethod")
 
+    def __del__(self):  # destructor
+        print("Goodbye! I am a MagicMethod")
+
 
 v1 = MagicMethod(2, 10)
 v2 = MagicMethod(5, -2)
