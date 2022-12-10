@@ -22,7 +22,9 @@ print(f"Discount price is {discount}")
 
 # item 2
 print("+++++this is item 2+++++")
-item2 = Items("Phone", 100, 7)
+item2 = Items(
+    "Phone", quantity=7, price=100
+)  # this is the way to pass the keyword arguments
 price2 = item2.calculate_total_price()
 print(f"Total price is {price2}")
 item2.pay_rate = 0.9  # this is the way to change the class attribute
