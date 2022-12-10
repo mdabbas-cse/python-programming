@@ -30,3 +30,5 @@ print(f"Total price is {price2}")
 item2.pay_rate = 0.9  # this is the way to change the class attribute
 discount2 = item2.apply_discount()
 print(f"Discount price is {discount2}")
+
+print(Items.all)
