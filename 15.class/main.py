@@ -34,3 +34,9 @@ print(f"Discount price is {discount2}")
 
 readCsv.instantiate_csv()
 print(readCsv.all)
+
+
+# check the input value is integer or not
+from classes.checkInputNumber import CheckInputNumber
+
+print(CheckInputNumber.is_integer(5))
