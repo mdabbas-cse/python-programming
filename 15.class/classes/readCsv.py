@@ -30,7 +30,7 @@ class readCsv:
             items = list(reader)
 
         for item in items:
-            readCsv(
+            cls(
                 name=item.get("name"),
                 price=float(item.get("price")),
                 quantity=int(item.get("quantity")),
