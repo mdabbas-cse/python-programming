@@ -1,5 +1,6 @@
 from classes.student import Student
 from classes.items import Items
+from classes.readCsv import readCsv
 
 student = Student("John", 123)
 course = student._get_course("Math")
@@ -31,4 +32,5 @@ item2.pay_rate = 0.9  # this is the way to change the class attribute
 discount2 = item2.apply_discount()
 print(f"Discount price is {discount2}")
 
-print(Items.all)
+readCsv.instantiate_csv()
+print(readCsv.all)
